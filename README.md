@@ -17,5 +17,5 @@
 - [x] Customizing Bootstrap
 - [x] Tabs
 
-:claps: Credits to:
+:clap: Credits to:
 - [Net-Ninja](https://netninja.dev/)
