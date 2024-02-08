@@ -16,3 +16,6 @@
 - [x] Dropdowns
 - [x] Customizing Bootstrap
 - [x] Tabs
+
+:claps: Credits to:
+- [Net-Ninja](https://netninja.dev/)
