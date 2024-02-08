@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  .membership-card {
+    width: 350px;
+    font-family: 'Arial', sans-serif;
+    border: none;
+  }
+
+  .membership-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+  }
+
+  .most-popular {
+    position: absolute;
+    top: 55px;
+    right: 10px; /* Adjust this value as necessary */
+    background: gold;
+    padding: 5px 15px;
+    font-size: 0.85em;
+    font-weight: bold;
+    transform: rotate(45deg); /* Rotate the ribbon */
+    transform-origin: bottom right; /* Set the origin of transformation */
+  }
+
+
+  .membership-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+
+  .membership-price {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .membership-button {
+    width: 100%;
+    background-color: #ffc107;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  .membership-features {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .membership-features li {
+    margin-bottom: 10px;
+  }
+
+  .membership-features li::before {
+    content: "\2713\0020";
+    color: gold;
+  }
+</style>
+<title>Monthly Membership Card</title>
+</head>
+<body>
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <div class="card membership-card">
+    <div class="card-header membership-header">
+      Monthly Membership
+      <div class="most-popular">Most popular</div>
+    </div>
+    <div class="card-body membership-body">
+      <div class="membership-price">$9</div>
+      <div>/mo</div>
+      <ul class="membership-features">
+        <li>Instant access to all courses</li>
+        <li>Early access to new courses</li>
+        <li>Access to premium & Udemy courses</li>
+        <li>Cancel at any time</li>
+      </ul>
+      <button class="btn membership-button">Join Now</button>
+    </div>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
